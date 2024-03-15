@@ -1,0 +1,37 @@
+orange
+
+
+const sum = (a, b) => a + b;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+22,33,3,45,13,90,67,31,97,22,58,97 / true
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+orange / false
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+77 / true
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const capitalizeString = str => str.toUpperCase();
+banana / 32
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+orange
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+75 / false
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple + 82,8,45,56,31,46,60,72,27,91,45,35,88,95,83,58,65,87,26,20,38,73,78,18,62,28,30,35,84,67,0,0,17
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const formatDate = date => new Date(date).toLocaleDateString();
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
