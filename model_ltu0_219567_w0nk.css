@@ -1,0 +1,30 @@
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+81,85,24,62,49 + true
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+kiwi + 67,9,95,80,61,15,68,26,94,92,97,96,43,28,27,97,90,67,42,47,6,10,82,64,11,59,27,23,3,7,47,29,28,11,52,23,55,14,58,22,42,38,80,11,31,97,26,65,40,30,35,27,52,59,35,64,57,3,76,66,68,41,37,56,80,59,49,98,39,40,57
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const variableName = getRandomNumber();
+const multiply = (a, b) => a * b;
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const reverseString = str => str.split("").reverse().join("");
+orange
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+kiwi
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+36,6,0,58,15,19,0,93,8,33,55,4,48,40,16,40,95,4,58,74,67,81,17,51,62,82,26,28,31,93,20,31,57,74,35,49,40 + 13
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const findLargestNumber = numbers => Math.max(...numbers);
+kiwi - true
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
